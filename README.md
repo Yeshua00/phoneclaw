@@ -10,7 +10,7 @@ Automating Uploading Videos To Tiktok With Songs:
 [![Automating Uploading Videos To Tiktok With Songs:](https://img.youtube.com/vi/TRqPFSixaog/0.jpg)](https://www.youtube.com/watch?v=TRqPFSixaog)
 
 
-Automating Creating Instagram Accounts:
+Automating Creating Instagram Accounts With 2FA From Email:
 
 [![Automating Creating Instagram Accounts](https://img.youtube.com/vi/9zR43vLYCMs/0.jpg)](https://www.youtube.com/watch?v=9zR43vLYCMs)
 
