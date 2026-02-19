@@ -18,6 +18,9 @@ Automating Captchas:
 
 [![Automating Captchas:](https://img.youtube.com/vi/aBgbr27fR5M/0.jpg)](https://www.youtube.com/watch?v=aBgbr27fR5M)
 
+**Updates**
+- 2/19/26 updated to allow selecting the openrouter model 
+
 
 **What It Can Do**
 - Automate multi-step app workflows on Android using the Accessibility service.
