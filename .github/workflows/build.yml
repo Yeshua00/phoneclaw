@@ -14,6 +14,11 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
+
+      - name: List files
+        run: |
+          ls -la
+          ls -la app/
       - name: Setup Java
         uses: actions/setup-java@v4
         with:
@@ -33,7 +38,7 @@ jobs:
 
       - name: Build Debug APK
         run: |
-          cd app
+          chmod +x gradlew
           ./gradlew assembleDebug --no-daemon
 
       - name: Upload APK
@@ -46,7 +51,7 @@ jobs:
       - name: Upload Release APK
         if: github.event_name == 'push' && (github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master')
         run: |
-          cd app
+          chmod +x gradlew
           ./gradlew assembleRelease --no-daemon
 
       - name: Upload Release APK
